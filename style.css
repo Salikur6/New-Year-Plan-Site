@@ -15,8 +15,19 @@ height: 64px;
 font-size: 20px;
 font-weight: 600;
 color: #005FAC;
+padding: 0 25px;
 }
 
+.sections-width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.tick-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
 /* Header Section ----------------------- */
 
 header.header {
@@ -48,4 +59,42 @@ header.header {
     width: 500px;
     margin-bottom: 30px;
     margin-left: 24px;
+}
+
+
+/* main section / failures of previous year -------------- */
+
+.failures-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.failures-section .failures-img {
+    width: 900px; 
+     height: 600px;
+    background: url(images/person-1.png) rgb(224, 222, 222) 50%  no-repeat;
+    background-size: contain;
+    border-radius: 527.929px;
+    
+}
+
+.previous-year h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.previous-year .year-details {
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.previous-year .year-description {
+    margin-bottom: 8px;
+    color: #444343;
 }
