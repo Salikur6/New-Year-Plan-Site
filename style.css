@@ -1,9 +1,51 @@
-/* *{
+*{
+margin: 0;
+font-family: 'Work Sans', sans-serif;
+}
 
-} */
+html {
+    height: 100%;
+}
+
+.btn-primary {
+border: 0;
+border-radius: 5px;
+background-color: #FFF;
+height: 64px;
+font-size: 20px;
+font-weight: 600;
+color: #005FAC;
+}
 
 /* Header Section ----------------------- */
 
 header.header {
-    background-image: url(images/banner/banner3.png);
+    background: url(images/banner/banner3.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.banner {
+    display: inline-block;
+    text-align: right;
+    margin-right: 230px;
+}
+
+.banner h2 {
+    font-size: 65px;
+    color: #FFF;
+    width: 525px;
+    margin-bottom: 25px;
+}
+
+.banner p {
+    font-size: 16px;
+    color: #FFF;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-left: 24px;
 }
