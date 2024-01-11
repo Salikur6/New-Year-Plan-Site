@@ -98,3 +98,70 @@ header.header {
     margin-bottom: 8px;
     color: #444343;
 }
+
+/* My plans section styles --------------------- */
+
+.plans {
+padding: 135px 0;
+}
+
+.my-plans {
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+
+.all-skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.all-skills .skill img {
+    width: 93px;
+    margin-bottom: 25px;
+}
+
+.all-skills .skill h4 {
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.all-skills .skill p {
+    font-size: 22px;
+    color: #737272;
+}
+
+/* positive mindset section style -------------------- */
+
+.positive-mindset {
+    padding-bottom: 130px;
+}
+.positive-mindset .positive-contant {
+    background: url(images/gradient1.png), url(images/watch.png) no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.positive-mindset .positive-contant div{
+margin: 60px;  
+}
+
+
+.positive-mindset .positive-contant h1{
+  font-size: 40px;
+  color: #FFF;
+margin-bottom: 24px;
+}
+
