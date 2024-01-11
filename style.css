@@ -139,6 +139,12 @@ padding: 135px 0;
     color: #737272;
 }
 
+
+
+
+
+
+
 /* positive mindset section style -------------------- */
 
 .positive-mindset {
@@ -165,6 +171,30 @@ margin: 60px;
 margin-bottom: 24px;
 }
 
+
+
+/* additional section - get started -------------- */
+
+
+.get-started {
+    background-color: #333332;
+}
+.get-started-contant {
+    display: flex;
+    justify-content: space-between;
+    padding: 115px 0;
+    align-items: center;
+}
+.get-started-contant div h1 {
+    font-size: 45px;
+    color: #FFF;
+    /* margin-bottom: 25px; */
+}
+.get-started-contant div h4 {
+    font-size: 24px;
+    color: #FFF;
+    margin-bottom: 25px;
+}
 
 
 /* Footer Section =---------------------------------- */
